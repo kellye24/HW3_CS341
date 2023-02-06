@@ -12,5 +12,12 @@
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "jest": "^29.4.1"
+  },
+"scripts": {
+  "start": "node ./bin/www",
+  "test": "jest"
   }
 }
