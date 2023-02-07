@@ -1,3 +1,8 @@
+/* 
+* By Emma Kelly
+* 5 February 2023
+* HW3 CS 341
+*/
 var fs = require('fs');
 test('test selectEvent', () => {
  //Read the index.html file into a string

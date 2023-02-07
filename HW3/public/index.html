@@ -3,81 +3,83 @@
 <!--
 By Emma Kelly
  -->
-  
+
 <!-- Linked CSS style sheet to main HTML for site -->
+
 <head>
-<link rel="stylesheet" href="./stylesheets/kellye24.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" /></script>
-<script src="javascripts/kellye24.js"></script>
+  <link rel="stylesheet" href="./stylesheets/kellye24.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
+  </script>
+  <script src="javascripts/kellye24.js"></script>
 </head>
 
 <body>
-<h1>Cheesecake Order Form</h1>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg/1200px-Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg" alt="Mondays at Il Forno - Cheesecake with strawberry sauce.jpg">
+  <h1>Cheesecake Order Form</h1>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg/1200px-Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg" alt="Mondays at Il Forno - Cheesecake with strawberry sauce.jpg">
 
-<body>
-  <p id="form">Quantity Topping</p>
-  <table id="form">
-    <tr>
-      <td>
+  <body>
+    <p id="form">Quantity Topping</p>
+    <table id="form">
+      <tr>
+        <td>
 
-        <select name="toppings">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-        </select>
+          <select name="toppings">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
 
-      </td>
-      
-<!-- Planning placement of variables in advance, although not necessary for the requirements of the assignment. Radio selection sticks for the first option always, causing selection to allow for more than one at a time. There are no requirements for selection behavior so this was left alone for the time being. -->
-      
-      <td><input type="radio" name="topping" value="Plain">
-        <label for="plain">Plain</label><br>
-        <input type="radio" id="cherry" name="topping" value="Cherry">
-        <label for="cherry">Cherry</label><br>
-        <input type="radio" id="chocolate" name="topping" value="Chocolate">
-        <label for="chocolate">Chocolate</label>
-        <td />
-    </tr>
-  </table>
-</body>
+        </td>
 
-<p id="form">Notes:</p>
-<textarea placeholder="Enter any special intructions here." id="form">
+        <!-- Planning placement of variables in advance, although not necessary for the requirements of the assignment. Radio selection sticks for the first option always, causing selection to allow for more than one at a time. There are no requirements for selection behavior so this was left alone for the time being. -->
+
+        <td><input type="radio" name="topping" value="Plain">
+          <label for="plain">Plain</label><br>
+          <input type="radio" id="cherry" name="topping" value="Cherry">
+          <label for="cherry">Cherry</label><br>
+          <input type="radio" id="chocolate" name="topping" value="Chocolate">
+          <label for="chocolate">Chocolate</label>
+          <td />
+      </tr>
+    </table>
+  </body>
+
+  <p id="form">Notes:</p>
+  <textarea placeholder="Enter any special intructions here." id="form">
 </textarea>
 
-<br />
+  <br />
 
-<button id="form">Order</button>
+  <button id="form">Order</button>
 
-<br /><br />
+  <br /><br />
 
-<!-- Order month dropdowns (when hovered) -->
+  <!-- Order month dropdowns (when hovered) -->
 
-<h3 style="font-weight:bolder;">Orders for Jan</h3>
-<div class="dropdown">
-  <button class="dropdownbtn" id="selectable">Jan</button>
-  <div class="content">
-    <a href="#">Jan</a>
-    <a href="#">Feb</a>
-    <a href="#">Mar</a>
-    <a href="#">Apr</a>
-    <a href="#">May</a>
-    <a href="#">Jun</a>
-    <a href="#">Jul</a>
-    <a href="#">Aug</a>
-    <a href="#">Sep</a>
-    <a href="#">Oct</a>
-    <a href="#">Nov</a>
-    <a href="#">Dec</a>
+  <h3 style="font-weight:bolder;">Orders for Jan</h3>
+  <div class="dropdown">
+    <button class="dropdownbtn" id="selectable">Jan</button>
+    <div class="content">
+      <a href="#">Jan</a>
+      <a href="#">Feb</a>
+      <a href="#">Mar</a>
+      <a href="#">Apr</a>
+      <a href="#">May</a>
+      <a href="#">Jun</a>
+      <a href="#">Jul</a>
+      <a href="#">Aug</a>
+      <a href="#">Sep</a>
+      <a href="#">Oct</a>
+      <a href="#">Nov</a>
+      <a href="#">Dec</a>
+    </div>
   </div>
-</div>
 
-<ul>
-  <li>11 cherry</li>
-  <li>17 chocolate</li>
-  <li>31 plain</li>
-</ul>
+  <ul>
+    <li>11 cherry</li>
+    <li>17 chocolate</li>
+    <li>31 plain</li>
+  </ul>
 </body>
 
 </html>
